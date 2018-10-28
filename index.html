@@ -4,39 +4,37 @@
 <head>
   <meta charset="utf-8">
   <title>gifTastic</title>
-  <style type="text/css">
-    button,
-    div,
-    form,
-    input {
-      margin: 10px;
-    }
-  </style>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
         <!-- Rendered Buttons will get Dumped Here  -->
         <div class="container">
-            <h1>Search Your Interests!!</h1>
-        
+          <div class ="jumbotron">
+            <h1 class = "text-center">Search Your Interests!!</h1>
+          </div>
             <!-- Rendered Buttons will get Dumped Here  -->
-            <div id="buttons-view"></div>
-        
-            <form id="movie-form">
-              <label for="movie-input">Add a Movie, Yo!</label>
-              <input type="text" id="movie-input">
+           <div class = row>
+            <div class = "col-md-6" id="buttons-view"></div>
+          </div>
+          <div class = row>
+            <form id="topic-form">
+              <label for="topic-input">Add a Topic </label>
+              <input type="text" id="topic-input">
               <br>
         
-              <!-- Button triggers new movie to be added -->
-              <input id="add-movie" type="submit" value="Add a Movie, Yo!">
+              <!-- Button triggers new topic to be added -->
+              <input id="add-topic" type="submit" value="Add a Topic">
             </form>
         
-            <!-- Movies will Get Dumped Here -->
-            <div id="movies-view"></div>
-        
+            <!-- Topics will Get Dumped Here -->
+            <div id="topics-view"></div>
+          </div>
       </div>
     
-        <!-- Movies will Get Dumped Here -->
+        <!-- Topics will Get Dumped Here -->
         
     
     </div>
