@@ -1,0 +1,32 @@
+/* button,
+div,
+form,
+input {
+      margin: 10px;
+    } */
+html {
+    position: relative;
+    min-height: 100%;
+    }
+    
+body {
+    background-color:#262626;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+    
+#wrap {
+    background-color:#262626;
+    color:#646464;
+}
+/* .greenBorder {
+    border-radius: 5px;
+    border: 2px solid orange;
+} */
+
+#title {
+    color:greenyellow;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding-top: 16px;
+}
