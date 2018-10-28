@@ -1,4 +1,4 @@
-var topics =["cat","Scooby-Doo","dog"].map(v => v.toLowerCase());   
+var topics =["Baby Boss","cat","Scooby-Doo","Yogi Bear","Super wings"].map(v => v.toLowerCase());   
   // Grabbing and storing the data-topic property value from the button
 function displayInfo() {
     var apiKey="q8Mum5C6Ns9xPFsYOxcD7K30HG5Cckzp";

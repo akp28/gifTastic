@@ -21,20 +21,24 @@
               </div>
             <!-- Rendered Buttons will get Dumped Here  -->
            <div class = row>
-            <div class = "col-md-6" id="buttons-view"></div>
+            <div class = "col-md-*" id="buttons-view"></div>
           </div>
           <div class = row>
-            <form id="topic-form">
-              <label for="topic-input">Add a Topic </label>
-              <input type="text" id="topic-input">
-              <br>
-        
-              <!-- Button triggers new topic to be added -->
-              <input id="add-topic" type="submit" value="Add a Topic">
-            </form>
-        
+              <div class ="col-md-9"> 
+                  <div id="topics-view"></div>
+                </div> 
+             <div class="col-md-3 col-md-offset-9">
+                <form id="topic-form">
+                  <label for="topic-input">Add a Topic </label>
+                  <input type="text" id="topic-input">
+                  <br>
+            
+                  <!-- Button triggers new topic to be added -->
+                  <input id="add-topic" type="submit" value="Add a Topic">
+                </form>
+              </div>
             <!-- Topics will Get Dumped Here -->
-            <div id="topics-view"></div>
+           
           </div>
       </div>
     
